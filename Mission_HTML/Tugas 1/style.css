@@ -1,0 +1,111 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+.template-area {
+	grid-template-areas:
+		"merah  hijau   hijau       ungu        ungu"
+		"merah  ping    hijaumuda   hijaumuda   hijaumuda"
+		"merah  ping    biru        birutua     birutua"
+		"jingga ping    biru        birutua     birutua"
+		"jingga kuning  kuning      birutua     birutua"
+		"jingga kuning  kuning      birutua     birutua";
+}
+
+.template-columns {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.template-rows {
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-display {
+	display: grid;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	font-size: larger;
+}
+
+.item {
+	width: 100%;
+	padding: 50px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.text-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.yellow-text {
+	color: yellow;
+}
+
+.bg-red {
+	background-color: #e06666;
+}
+
+.bg-green {
+	background-color: #00a15d;
+}
+
+.bg-purple {
+	background-color: #8e7cc3;
+}
+
+.bg-pink {
+	background-color: #ff9fd5;
+}
+
+.bg-gold {
+	background-color: #ffc800;
+}
+
+.bg-yellow {
+	background-color: #ffff00;
+}
+
+.bg-blue {
+	background-color: #3d85c6;
+}
+
+.merah {
+	grid-area: merah;
+}
+.hijau {
+	grid-area: hijau;
+}
+.ungu {
+	grid-area: ungu;
+}
+
+.pink {
+	grid-area: ping;
+}
+
+.hijau-muda {
+	grid-area: hijaumuda;
+}
+
+.biru {
+	grid-area: biru;
+}
+
+.jingga {
+	grid-area: jingga;
+}
+
+.kuning {
+	grid-area: kuning;
+}
+
+.biru-tua {
+	grid-area: birutua;
+}
